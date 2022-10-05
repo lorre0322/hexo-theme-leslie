@@ -1,0 +1,26 @@
+<% if (is_home() && page.current == 1){ %>
+	<%- partial('_global/intro') %>
+<% } %>
+<div class="post-list">
+	<h3>「 文章  」</h3>
+	<% page.posts.each(function (post) { %>
+		<% if (post.sticky) { 
+		var sticky = 'sticky'
+	} %>
+	<article class="<%=sticky%>">
+		<% 
+		var en_mon = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Spt","Oct","Nov","Dec"]
+		var get_mon = en_mon[Number(date(post.date, "MM").replace(/\b(0+)/gi,"")) - 1]
+		%>
+		<a href='/<%=post.path%>'>
+			<%= post.title %>
+		</a>
+		<span class="cut"></span>
+		<div class="post-date">	
+			<span class="post-month"><%=get_mon%></span>
+			<span class="post-day"><%=date(post.date, "DD")%></span>
+			<span class="post-year"><%=date(post.date, "YYYY")%></span>
+		</div>
+	</article>
+	<% }) %>
+</div>

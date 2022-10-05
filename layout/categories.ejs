@@ -1,0 +1,15 @@
+分类
+<div id="content">
+	<div class="post">
+		<h1 class="page-title">Category</h1>
+		<div class="page">
+			<%- list_categories(site.categories,{
+				show_count: true,
+				class: 'category',
+				transform:function(name){
+					return titlecase(name)
+				}
+			}) %>
+		</div>
+	</div>
+</div>

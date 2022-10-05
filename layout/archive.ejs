@@ -1,0 +1,25 @@
+<% var page_title =  page.category || page.tag || '归档' %>
+<div class="archive-list">
+<h3>「  <%= page_title%>  」</h3>
+<% var last = "1998"%>
+<% page.posts.each(function (post) { %>
+	<% if (last != post.date.year()){ %>
+		<% last = post.date.year()%>
+		<h3 class="archive-year"><%=post.date.year()%></h3>
+	<%}%>
+	<% 
+		var en_mon = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Spt","Oct","Nov","Dec"]
+		var get_mon = en_mon[Number(date(post.date, "MM").replace(/\b(0+)/gi,"")) - 1]
+	%>
+	<article class="">
+		<a href='/<%=post.path%>'>
+			<%= post.title %>
+		</a>
+		<span class="cut"></span>
+		<div class="post-date">	
+			<span class="post-month"><%=get_mon%></span>
+			<span class="post-day"><%=date(post.date, "DD")%></span>
+		</div>
+	</article>
+<% }) %>
+</div>

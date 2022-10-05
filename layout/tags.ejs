@@ -1,0 +1,16 @@
+标签
+<div id="content">
+	<div class="post">
+		<h1 class="page-title">Tag</h1>
+		<div class="page">
+			<%- list_tags(site.tags,{
+				show_count: true,
+				class: 'tag',
+				transform:function(name){
+					return titlecase(name)
+				}
+			}) %>
+			
+		</div>
+	</div>
+</div>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="300px" viewBox="0 0 100 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>cyico</title>
+    <desc>Created with Sketch.</desc>
+    <g id="cyico" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M44.7776257,140.777354 C41.7573465,135.105951 37.7256594,131 33.5,131 C24.8429365,131 17,148.233203 17,160.85484 C17,169.69944 21.9181436,177 33.5,177 L33.5,177 C41.2944366,177 46.0708027,173.693494 48.3611536,168.835089" id="路径" stroke="#8A8A8A" stroke-width="3"></path>
+        <path d="M44.7398978,40.7066892 C41.7238151,35.0718765 37.7080889,31 33.5,31 C24.8429365,31 17,48.2332026 17,60.8548405 C17,69.6994398 21.9181436,77 33.5,77 L33.5,77 C41.3728714,77 46.1666255,73.6266132 48.4295418,68.6879503" id="路径" stroke="#000000" stroke-width="3"></path>
+        <path d="M44.9184238,241.044274 C41.8832591,235.235233 37.7916695,231 33.5,231 C24.8429365,231 17,248.233203 17,260.85484 C17,269.69944 21.9181436,277 33.5,277 L33.5,277 C41.3452061,277 46.1328969,273.65028 48.4055923,268.739956" id="路径" stroke="#B86C69" stroke-width="3"></path>
+        <path d="M63,173.780976 C77.0386138,173.780976 83,164.836363 83,154 C83,138.536027 73.4934102,117.421986 63,117.421986 C52.5065898,117.421986 43,138.536027 43,154 C43,164.836363 48.9613862,173.780976 63,173.780976 Z" id="椭圆形" stroke="#8A8A8A" stroke-width="3"></path>
+        <path d="M63,73.7809756 C77.0386138,73.7809756 83,64.8363627 83,54 C83,38.536027 73.4934102,17.421986 63,17.421986 C52.5065898,17.421986 43,38.536027 43,54 C43,64.8363627 48.9613862,73.7809756 63,73.7809756 Z" id="椭圆形备份-5" stroke="#000000" stroke-width="3"></path>
+        <path d="M63,273.780976 C77.0386138,273.780976 83,264.836363 83,254 C83,238.536027 73.4934102,217.421986 63,217.421986 C52.5065898,217.421986 43,238.536027 43,254 C43,264.836363 48.9613862,273.780976 63,273.780976 Z" id="椭圆形备份-3" stroke="#B86C69" stroke-width="3"></path>
+        <path d="M51.5,150 L62.0848054,160.584805" id="直线-3" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M51.5,50 L62.0848054,60.5848054" id="直线-3备份-4" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M51.5,250 L62.0848054,260.584805" id="直线-3备份-2" stroke="#B86C69" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M23.4166667,158 L32.2373378,166.660295" id="直线-3备份" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M23.4166667,58 L32.2373378,66.6602953" id="直线-3备份-5" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M23.4166667,258 L32.2373378,266.660295" id="直线-3备份-3" stroke="#B86C69" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M68.5,143.5 L63,149" id="直线-2" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M68.5,43.5 L63,49" id="直线-2备份-4" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M68.5,243.5 L63,249" id="直线-2备份-2" stroke="#B86C69" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M37.5833333,152.416667 L33,157" id="直线-2备份" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M37.5833333,52.4166667 L33,57" id="直线-2备份-5" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M37.5833333,252.416667 L33,257" id="直线-2备份-3" stroke="#B86C69" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M63,182.88441 L63,137.169611" id="直线" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M63,82.8844097 L63,37.1696108" id="直线备份-4" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M63,282.88441 L63,237.169611" id="直线备份-2" stroke="#B86C69" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M33,182.88441 L33,146.137132" id="直线备份" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M33,82.8844097 L33,46.1371321" id="直线备份-5" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M33,282.88441 L33,246.137132" id="直线备份-3" stroke="#B86C69" stroke-width="3" stroke-linecap="round"></path>
+    </g>
+</svg>

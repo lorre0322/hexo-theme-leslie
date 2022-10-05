@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>topMe</title>
+    <desc>Created with Sketch.</desc>
+    <g id="topMe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="椭圆形备份" stroke="#D3D3D3" stroke-width="3" cx="50" cy="40" r="13"></circle>
+        <path d="M73.610933,72.2186725 C71.5982136,61.2842424 62.0165511,53 50.5,53 C38.9017716,53 29.2659742,61.4021656 27.3473875,72.4517168" id="路径" stroke="#D3D3D3" stroke-width="3"></path>
+        <circle id="椭圆形" stroke="#D3D3D3" stroke-width="3" cx="50.5" cy="50.5" r="32"></circle>
+    </g>
+</svg>

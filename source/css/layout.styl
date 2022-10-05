@@ -1,0 +1,89 @@
+:root
+  --theme #ffffff
+  --font #111
+
+.dark
+  --theme #2d2d2d
+  --font #F5F0E5
+*
+  box-sizing: border-box
+body
+  margin: 0
+  background: var(--theme)
+  color: var(--font)
+  transition: background .5s
+header
+  transition: background .5s
+
+h1,h2,h3,h4,h5,h6
+  margin-top: .8em
+  margin-bottom: .2em
+h1
+  font-size: 1.6em
+h2
+  font-size: 1.5em
+h3
+  font-size: 1.4em
+h4,h5,h6
+  font-size: 1.2em
+
+blockquote
+  margin: 0
+  padding: 1em 2em
+  background: rgba(200,200,200,.1)
+
+article
+  line-height: 2.5em
+p
+  margin-top: 1em
+  margin-bottom: 1.5em
+a
+  color: var(--font)
+  text-decoration: none
+input
+  background: transparent
+  padding: .5em 1em
+  color: var(--font)
+  width: 100%
+  font-weight: 700
+  border: 2px solid rgba(200,200,200,.2)
+  border-radius: 10px
+body.dark #container
+  filter: grayscale(120%)
+img
+  width: 100%
+  max-width: 100%
+
+#Leslie
+  margin: 20px auto
+  max-width: 42em
+  width: 100%
+  min-width 335px
+  font: 16px/1.8em Microsoft YaHei, serif
+  .section
+    display: flex
+    justify-content: space-between
+  .wrap
+    padding: 18px
+  .list
+    margin: 0
+    padding: 0
+    list-style none
+    &>li
+      display: inline-block
+  .cut::after
+    content: '/'
+    padding: 0 5px
+  .page-title
+    font-size: 1.8em
+    margin: 1.5em 0 .5em
+  .post-date
+    display: inline-block
+    font-size: 14px
+    color: rgba(200,200,200,.8)
+    .post-month
+      padding-right: 3px
+    .post-day
+      padding-right: 2px
+    .post-month::after
+      content: '.'

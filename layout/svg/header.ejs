@@ -1,0 +1,18 @@
+<header>
+<ul id="menu" class="list menu">
+	<% var pro=[] %>
+	<% for(item in theme.Header){ %>
+		<% if(theme.Header[item]){ %>
+			<% pro = 'svg/menu/'+item %>
+			<li>
+				<a href='<%=theme.Header[item]%>'>
+					<svg width="40px" height="120px" viewBox="0 0 95 310" version="1.1">
+						<%- partial(pro) %>
+					</svg>
+				</a>
+			</li>
+		<% } %>
+	<% } %> 
+</ul>
+
+</header>
